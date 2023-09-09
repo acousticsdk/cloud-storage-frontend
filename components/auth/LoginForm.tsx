@@ -61,7 +61,7 @@ export const LoginForm: React.FC = () => {
           rules={[
             {
               required: true,
-              message: "Укажите пароль (pass)",
+              message: "Укажите пароль",
             },
           ]}
         >
