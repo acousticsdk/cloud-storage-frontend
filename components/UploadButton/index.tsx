@@ -17,7 +17,7 @@ export const UploadButton: React.FC = () => {
       window.location.reload();
     } catch (err) {
       notification.error({
-        message: "Ошибка!",
+        message: "Error!",
         description: "Не удалось загрузить файл",
         duration: 2,
       });
